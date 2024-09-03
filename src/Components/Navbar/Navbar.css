@@ -1,0 +1,38 @@
+.navbar-container {
+  /* border: 2px solid black; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 17vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
+.logo-name-container {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  height: 100%;
+}
+
+.logo {
+  font-size: 6vw;
+  color: #ffffff;
+  font-weight: bolder;
+  letter-spacing: 0.5vw;
+}
+.hamburger-container {
+  height: 9vw;
+  width: 9vw;
+  margin-right: 2vw;
+}
+.hamburger-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}

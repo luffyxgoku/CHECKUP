@@ -1,0 +1,41 @@
+.hero-container {
+  /* border: 2px solid black; */
+  position: absolute;
+  top: 30vw;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  z-index: 5;
+}
+.header-containing-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text {
+  text-align: center;
+  color: #f6e940;
+  font-size: 9vw;
+  font-weight: bolder;
+}
+.tagline {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 3vw;
+}
+.button-container {
+  /* border: 2px solid black; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  height: 10vw;
+}
+.check-health-btn {
+  width: 45vw;
+  font-size: 3.1vw;
+  border: none;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+}
