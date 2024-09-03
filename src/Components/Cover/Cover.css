@@ -1,0 +1,23 @@
+.background-container {
+  /* border: 2px solid red; */
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: -1;
+}
+
+.backrgound-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.backdrop {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  z-index: 1;
+}
