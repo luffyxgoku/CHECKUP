@@ -10,7 +10,8 @@ export default function CoverContent() {
             <h2 className="hero-text">
               Nourish, Move, Thrive:
               <br /> Your Complete Guide to
-              <br /> Better Health
+              <br />
+              Better Health
             </h2>
           </div>
           <div className="tagline-container">
