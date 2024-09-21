@@ -36,3 +36,44 @@
   object-fit: cover;
   cursor: pointer;
 }
+.hamMenu-sideBar {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70vw;
+  height: 100vh;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar-munuContainer {
+  border: 2px solid black;
+  height: 50%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar-munuContainer > p {
+  font-weight: bold;
+  font-size: 5vw;
+}
+.hamburger-sidebar-container {
+  border: 2px solid black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 9vw;
+  width: 9vw;
+  margin: 2vw;
+  background-color: black;
+}
+.hamburger-sidebar-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
